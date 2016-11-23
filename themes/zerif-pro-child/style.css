@@ -1,0 +1,47 @@
+/*
+Theme Name: Zerif Child
+Theme URI: http://www.etiennebelanger.com/ 
+Description: This is a custom child theme I have created.
+Author: Etienne Bélanger
+URI: http://www.etiennebelanger.com/ 
+Template: zerif-lite
+Version: 0.1 
+*/
+
+@import url(../zerif-lite/style.css);
+
+/* *********************************
+   BACKGROUND IMAGES
+************************************/
+.home-header-wrap {
+   background-size: cover;
+   background: url(../../uploads/2016/04/patternheader.png) center fixed;
+}
+
+#contact.contact-us {
+   background-size: cover;
+   background: url(../../uploads/2016/04/pattern.png) center fixed;
+}
+/* *********************************
+STYLING FOR ABOUT ME SECTION
+************************************/
+.sub_text_and_skills ul {
+   margin: 10px 0 0 0;
+}
+
+.sub_text_and_skills, .sub_text_and_skills ul, .sub_text_and_skills_list_title  {
+   text-align: left;
+}
+
+.sub_text_and_skills ul li {
+   list-style-type: none;
+}
+
+.sub_text_and_skills_list_title {
+   font-size: 2em;
+}
+
+
+
+
+	
